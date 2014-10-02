@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph __version="3.5.0" author="damiansima" created="Fri May 30 10:07:14 ART 2014" description="XML To List&lt;Product2&gt;" guiVersion="3.4.3.P" id="1401477927581" licenseCode="Unlicensed" licenseType="Unknown" modified="Fri May 30 10:07:14 ART 2014" modifiedBy="damiansima" name="XML_To_List_Product2_" preview-file="${Project_Home}/src/test/resources/mat_master_small.xml" revision="1.0" showComponentDetails="false">
+<Global>
+<Metadata __index="57" __referenceCounter="0" __schemaType="E1MAKTMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MAKTM" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="94c46c3a-be93-4ed9-bc44-ab298969fc5f" _parent_id="__parent_id" _type="Input" id="d04f8527-6585-423a-9f4a-54f6b4adb07c">
+<Record fieldDelimiter="," name="E1MAKTM" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="57" __schemaType="E1MAKTMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MAKTM/MSGFN" containerType="SINGLE" label="MSGFN" name="MSGFN" type="integer"/>
+<Field __index="58" __schemaType="E1MAKTMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MAKTM/SPRAS" containerType="SINGLE" label="SPRAS" name="SPRAS" type="string"/>
+<Field __index="59" __schemaType="E1MAKTMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MAKTM/MAKTX" containerType="SINGLE" label="MAKTX" name="MAKTX" type="string"/>
+<Field __index="60" __schemaType="E1MAKTMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MAKTM/SPRAS_ISO" containerType="SINGLE" label="SPRAS_ISO" name="SPRAS_ISO" type="string"/>
+<Field __index="61" __schemaType="E1MAKTMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MAKTM/@SEGMENT" containerType="SINGLE" label="SEGMENT" name="SEGMENT" type="integer"/>
+</Record>
+</Metadata>
+<Metadata __index="62" __referenceCounter="0" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="94c46c3a-be93-4ed9-bc44-ab298969fc5f" _parent_id="__parent_id" _type="Input" id="e4957e41-85d6-4055-9c0f-a75f223abce0">
+<Record fieldDelimiter="," name="E1MARCM" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="62" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/MSGFN" containerType="SINGLE" label="MSGFN" name="MSGFN" type="integer"/>
+<Field __index="63" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/WERKS" containerType="SINGLE" label="WERKS" name="WERKS" type="integer"/>
+<Field __index="64" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/PSTAT" containerType="SINGLE" label="PSTAT" name="PSTAT" type="string"/>
+<Field __index="65" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/LVORM" containerType="SINGLE" label="LVORM" name="LVORM" type="string"/>
+<Field __index="66" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/EKGRP" containerType="SINGLE" label="EKGRP" name="EKGRP" type="integer"/>
+<Field __index="67" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/DISPR" containerType="SINGLE" label="DISPR" name="DISPR" type="string"/>
+<Field __index="68" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/DISMM" containerType="SINGLE" label="DISMM" name="DISMM" type="string"/>
+<Field __index="69" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/DISPO" containerType="SINGLE" label="DISPO" name="DISPO" type="integer"/>
+<Field __index="70" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/PLIFZ" containerType="SINGLE" label="PLIFZ" name="PLIFZ" type="integer"/>
+<Field __index="71" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/WEBAZ" containerType="SINGLE" label="WEBAZ" name="WEBAZ" type="integer"/>
+<Field __index="72" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/PERKZ" containerType="SINGLE" label="PERKZ" name="PERKZ" type="string"/>
+<Field __index="73" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/AUSSS" containerType="SINGLE" label="AUSSS" name="AUSSS" type="number"/>
+<Field __index="74" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/DISLS" containerType="SINGLE" label="DISLS" name="DISLS" type="string"/>
+<Field __index="75" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/BESKZ" containerType="SINGLE" label="BESKZ" name="BESKZ" type="string"/>
+<Field __index="76" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/MINBE" containerType="SINGLE" label="MINBE" name="MINBE" type="number"/>
+<Field __index="77" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/EISBE" containerType="SINGLE" label="EISBE" name="EISBE" type="number"/>
+<Field __index="78" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/BSTMI" containerType="SINGLE" label="BSTMI" name="BSTMI" type="number"/>
+<Field __index="79" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/BSTMA" containerType="SINGLE" label="BSTMA" name="BSTMA" type="number"/>
+<Field __index="80" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/BSTFE" containerType="SINGLE" label="BSTFE" name="BSTFE" type="number"/>
+<Field __index="81" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/BSTRF" containerType="SINGLE" label="BSTRF" name="BSTRF" type="number"/>
+<Field __index="82" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/MABST" containerType="SINGLE" label="MABST" name="MABST" type="number"/>
+<Field __index="83" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/LOSFX" containerType="SINGLE" label="LOSFX" name="LOSFX" type="integer"/>
+<Field __index="84" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/AUSDT" containerType="SINGLE" label="AUSDT" name="AUSDT" type="integer"/>
+<Field __index="85" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/FHORI" containerType="SINGLE" label="FHORI" name="FHORI" type="integer"/>
+<Field __index="86" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/BEARZ" containerType="SINGLE" label="BEARZ" name="BEARZ" type="number"/>
+<Field __index="87" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/RUEZT" containerType="SINGLE" label="RUEZT" name="RUEZT" type="number"/>
+<Field __index="88" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/TRANZ" containerType="SINGLE" label="TRANZ" name="TRANZ" type="number"/>
+<Field __index="89" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/BASMG" containerType="SINGLE" label="BASMG" name="BASMG" type="number"/>
+<Field __index="90" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/DZEIT" containerType="SINGLE" label="DZEIT" name="DZEIT" type="integer"/>
+<Field __index="91" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/MAXLZ" containerType="SINGLE" label="MAXLZ" name="MAXLZ" type="integer"/>
+<Field __index="92" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/UEETO" containerType="SINGLE" label="UEETO" name="UEETO" type="number"/>
+<Field __index="93" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/UNETO" containerType="SINGLE" label="UNETO" name="UNETO" type="number"/>
+<Field __index="94" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/WZEIT" containerType="SINGLE" label="WZEIT" name="WZEIT" type="integer"/>
+<Field __index="95" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/VZUSL" containerType="SINGLE" label="VZUSL" name="VZUSL" type="number"/>
+<Field __index="96" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/UMLMC" containerType="SINGLE" label="UMLMC" name="UMLMC" type="number"/>
+<Field __index="97" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/LGRAD" containerType="SINGLE" label="LGRAD" name="LGRAD" type="number"/>
+<Field __index="98" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/OBJID" containerType="SINGLE" label="OBJID" name="OBJID" type="integer"/>
+<Field __index="99" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/MTVFP" containerType="SINGLE" label="MTVFP" name="MTVFP" type="integer"/>
+<Field __index="100" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/VRVEZ" containerType="SINGLE" label="VRVEZ" name="VRVEZ" type="number"/>
+<Field __index="101" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/VBAMG" containerType="SINGLE" label="VBAMG" name="VBAMG" type="number"/>
+<Field __index="102" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/VBEAZ" containerType="SINGLE" label="VBEAZ" name="VBEAZ" type="number"/>
+<Field __index="103" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/PRCTR" containerType="SINGLE" label="PRCTR" name="PRCTR" type="integer"/>
+<Field __index="104" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/TRAME" containerType="SINGLE" label="TRAME" name="TRAME" type="number"/>
+<Field __index="105" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/FXHOR" containerType="SINGLE" label="FXHOR" name="FXHOR" type="integer"/>
+<Field __index="106" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/VINT1" containerType="SINGLE" label="VINT1" name="VINT1" type="integer"/>
+<Field __index="107" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/VINT2" containerType="SINGLE" label="VINT2" name="VINT2" type="integer"/>
+<Field __index="108" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/LOSGR" containerType="SINGLE" label="LOSGR" name="LOSGR" type="number"/>
+<Field __index="109" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/LGPRO" containerType="SINGLE" label="LGPRO" name="LGPRO" type="integer"/>
+<Field __index="110" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/DISGR" containerType="SINGLE" label="DISGR" name="DISGR" type="integer"/>
+<Field __index="111" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/KAUSF" containerType="SINGLE" label="KAUSF" name="KAUSF" type="number"/>
+<Field __index="112" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/TAKZT" containerType="SINGLE" label="TAKZT" name="TAKZT" type="integer"/>
+<Field __index="113" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/ABCIN" containerType="SINGLE" label="ABCIN" name="ABCIN" type="string"/>
+<Field __index="114" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/VRBFK" containerType="SINGLE" label="VRBFK" name="VRBFK" type="number"/>
+<Field __index="115" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/PRENO" containerType="SINGLE" label="PRENO" name="PRENO" type="integer"/>
+<Field __index="116" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/PRFRQ" containerType="SINGLE" label="PRFRQ" name="PRFRQ" type="integer"/>
+<Field __index="117" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/SHZET" containerType="SINGLE" label="SHZET" name="SHZET" type="integer"/>
+<Field __index="118" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/MMSTD" containerType="SINGLE" label="MMSTD" name="MMSTD" type="integer"/>
+<Field __index="119" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/DPLHO" containerType="SINGLE" label="DPLHO" name="DPLHO" type="integer"/>
+<Field __index="120" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/MINLS" containerType="SINGLE" label="MINLS" name="MINLS" type="number"/>
+<Field __index="121" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/MAXLS" containerType="SINGLE" label="MAXLS" name="MAXLS" type="number"/>
+<Field __index="122" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/FIXLS" containerType="SINGLE" label="FIXLS" name="FIXLS" type="number"/>
+<Field __index="123" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/LTINC" containerType="SINGLE" label="LTINC" name="LTINC" type="number"/>
+<Field __index="124" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/COMPL" containerType="SINGLE" label="COMPL" name="COMPL" type="integer"/>
+<Field __index="125" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/EISLO" containerType="SINGLE" label="EISLO" name="EISLO" type="number"/>
+<Field __index="126" __schemaType="E1MARDMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/E1MARDM/MSGFN" containerType="SINGLE" label="MSGFN" name="MSGFN_1" type="integer"/>
+<Field __index="127" __schemaType="E1MARDMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/E1MARDM/LGORT" containerType="SINGLE" label="LGORT" name="LGORT" type="integer"/>
+<Field __index="128" __schemaType="E1MARDMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/E1MARDM/PSTAT" containerType="SINGLE" label="PSTAT" name="PSTAT_1" type="string"/>
+<Field __index="129" __schemaType="E1MARDMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/E1MARDM/LVORM" containerType="SINGLE" label="LVORM" name="LVORM_1" type="string"/>
+<Field __index="130" __schemaType="E1MARDMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/E1MARDM/LMINB" containerType="SINGLE" label="LMINB" name="LMINB" type="number"/>
+<Field __index="131" __schemaType="E1MARDMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/E1MARDM/LBSTF" containerType="SINGLE" label="LBSTF" name="LBSTF" type="number"/>
+<Field __index="132" __schemaType="E1MARDMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/E1MARDM/BSKRF" containerType="SINGLE" label="BSKRF" name="BSKRF" type="number"/>
+<Field __index="133" __schemaType="E1MARDMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/E1MARDM/@SEGMENT" containerType="SINGLE" label="SEGMENT" name="SEGMENT" type="integer"/>
+<Field __index="134" __schemaType="E1MARCMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MARCM/@SEGMENT" containerType="SINGLE" label="SEGMENT" name="SEGMENT_1" type="integer"/>
+</Record>
+</Metadata>
+<Metadata __index="135" __referenceCounter="0" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="94c46c3a-be93-4ed9-bc44-ab298969fc5f" _parent_id="__parent_id" _type="Input" id="17262307-a0df-4908-ae67-d67e1bac2741">
+<Record fieldDelimiter="," name="E1MBEWM" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="135" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/MSGFN" containerType="SINGLE" label="MSGFN" name="MSGFN" type="integer"/>
+<Field __index="136" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/BWKEY" containerType="SINGLE" label="BWKEY" name="BWKEY" type="integer"/>
+<Field __index="137" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/LVORM" containerType="SINGLE" label="LVORM" name="LVORM" type="string"/>
+<Field __index="138" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VPRSV" containerType="SINGLE" label="VPRSV" name="VPRSV" type="string"/>
+<Field __index="139" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VERPR" containerType="SINGLE" label="VERPR" name="VERPR" type="number"/>
+<Field __index="140" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/STPRS" containerType="SINGLE" label="STPRS" name="STPRS" type="number"/>
+<Field __index="141" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/PEINH" containerType="SINGLE" label="PEINH" name="PEINH" type="integer"/>
+<Field __index="142" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/BKLAS" containerType="SINGLE" label="BKLAS" name="BKLAS" type="integer"/>
+<Field __index="143" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VMVPR" containerType="SINGLE" label="VMVPR" name="VMVPR" type="string"/>
+<Field __index="144" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VMVER" containerType="SINGLE" label="VMVER" name="VMVER" type="number"/>
+<Field __index="145" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VMSTP" containerType="SINGLE" label="VMSTP" name="VMSTP" type="number"/>
+<Field __index="146" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VMPEI" containerType="SINGLE" label="VMPEI" name="VMPEI" type="integer"/>
+<Field __index="147" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VMBKL" containerType="SINGLE" label="VMBKL" name="VMBKL" type="integer"/>
+<Field __index="148" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VJVPR" containerType="SINGLE" label="VJVPR" name="VJVPR" type="string"/>
+<Field __index="149" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VJVER" containerType="SINGLE" label="VJVER" name="VJVER" type="number"/>
+<Field __index="150" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VJSTP" containerType="SINGLE" label="VJSTP" name="VJSTP" type="number"/>
+<Field __index="151" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/LFGJA" containerType="SINGLE" label="LFGJA" name="LFGJA" type="integer"/>
+<Field __index="152" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/LFMON" containerType="SINGLE" label="LFMON" name="LFMON" type="integer"/>
+<Field __index="153" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/ZKPRS" containerType="SINGLE" label="ZKPRS" name="ZKPRS" type="integer"/>
+<Field __index="154" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/ZKDAT" containerType="SINGLE" label="ZKDAT" name="ZKDAT" type="integer"/>
+<Field __index="155" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/BWPRS" containerType="SINGLE" label="BWPRS" name="BWPRS" type="integer"/>
+<Field __index="156" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/BWPRH" containerType="SINGLE" label="BWPRH" name="BWPRH" type="integer"/>
+<Field __index="157" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VJBWS" containerType="SINGLE" label="VJBWS" name="VJBWS" type="integer"/>
+<Field __index="158" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VJBWH" containerType="SINGLE" label="VJBWH" name="VJBWH" type="integer"/>
+<Field __index="159" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VVJLB" containerType="SINGLE" label="VVJLB" name="VVJLB" type="number"/>
+<Field __index="160" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VVMLB" containerType="SINGLE" label="VVMLB" name="VVMLB" type="number"/>
+<Field __index="161" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VVSAL" containerType="SINGLE" label="VVSAL" name="VVSAL" type="integer"/>
+<Field __index="162" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/ZPLPR" containerType="SINGLE" label="ZPLPR" name="ZPLPR" type="integer"/>
+<Field __index="163" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/ZPLP1" containerType="SINGLE" label="ZPLP1" name="ZPLP1" type="integer"/>
+<Field __index="164" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/ZPLP2" containerType="SINGLE" label="ZPLP2" name="ZPLP2" type="integer"/>
+<Field __index="165" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/ZPLP3" containerType="SINGLE" label="ZPLP3" name="ZPLP3" type="integer"/>
+<Field __index="166" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/ZPLD1" containerType="SINGLE" label="ZPLD1" name="ZPLD1" type="integer"/>
+<Field __index="167" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/ZPLD2" containerType="SINGLE" label="ZPLD2" name="ZPLD2" type="integer"/>
+<Field __index="168" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/ZPLD3" containerType="SINGLE" label="ZPLD3" name="ZPLD3" type="integer"/>
+<Field __index="169" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/KALKL" containerType="SINGLE" label="KALKL" name="KALKL" type="string"/>
+<Field __index="170" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/BWPH1" containerType="SINGLE" label="BWPH1" name="BWPH1" type="integer"/>
+<Field __index="171" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/BWPS1" containerType="SINGLE" label="BWPS1" name="BWPS1" type="integer"/>
+<Field __index="172" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/ABWKZ" containerType="SINGLE" label="ABWKZ" name="ABWKZ" type="integer"/>
+<Field __index="173" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/PSTAT" containerType="SINGLE" label="PSTAT" name="PSTAT" type="string"/>
+<Field __index="174" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/KALN1" containerType="SINGLE" label="KALN1" name="KALN1" type="integer"/>
+<Field __index="175" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/KALNR" containerType="SINGLE" label="KALNR" name="KALNR" type="integer"/>
+<Field __index="176" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/BWVA2" containerType="SINGLE" label="BWVA2" name="BWVA2" type="integer"/>
+<Field __index="177" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/BWVA3" containerType="SINGLE" label="BWVA3" name="BWVA3" type="integer"/>
+<Field __index="178" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VERS1" containerType="SINGLE" label="VERS1" name="VERS1" type="integer"/>
+<Field __index="179" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VERS2" containerType="SINGLE" label="VERS2" name="VERS2" type="integer"/>
+<Field __index="180" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VERS3" containerType="SINGLE" label="VERS3" name="VERS3" type="integer"/>
+<Field __index="181" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/PPRDZ" containerType="SINGLE" label="PPRDZ" name="PPRDZ" type="integer"/>
+<Field __index="182" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/PPRDL" containerType="SINGLE" label="PPRDL" name="PPRDL" type="integer"/>
+<Field __index="183" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/PPRDV" containerType="SINGLE" label="PPRDV" name="PPRDV" type="integer"/>
+<Field __index="184" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/PDATZ" containerType="SINGLE" label="PDATZ" name="PDATZ" type="integer"/>
+<Field __index="185" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/PDATL" containerType="SINGLE" label="PDATL" name="PDATL" type="integer"/>
+<Field __index="186" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/PDATV" containerType="SINGLE" label="PDATV" name="PDATV" type="integer"/>
+<Field __index="187" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/EKALR" containerType="SINGLE" label="EKALR" name="EKALR" type="string"/>
+<Field __index="188" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VPLPR" containerType="SINGLE" label="VPLPR" name="VPLPR" type="number"/>
+<Field __index="189" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VJBKL" containerType="SINGLE" label="VJBKL" name="VJBKL" type="integer"/>
+<Field __index="190" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/VJPEI" containerType="SINGLE" label="VJPEI" name="VJPEI" type="integer"/>
+<Field __index="191" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/HKMAT" containerType="SINGLE" label="HKMAT" name="HKMAT" type="string"/>
+<Field __index="192" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/BWPEI" containerType="SINGLE" label="BWPEI" name="BWPEI" type="integer"/>
+<Field __index="193" __schemaType="E1MBEWMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/E1MBEWM/@SEGMENT" containerType="SINGLE" label="SEGMENT" name="SEGMENT" type="integer"/>
+</Record>
+</Metadata>
+<Metadata __index="0" __referenceCounter="1" __schemaType="MATMAS01Type" __sourcePath="{}/MATMAS01" _dataStructure="OBJECT" _id="__id" _type="Input" id="94c46c3a-be93-4ed9-bc44-ab298969fc5f">
+<Record fieldDelimiter="," name="MATMAS01" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="0" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/TABNAM" containerType="SINGLE" label="TABNAM" name="TABNAM" type="string"/>
+<Field __index="1" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/MANDT" containerType="SINGLE" label="MANDT" name="MANDT" type="integer"/>
+<Field __index="2" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/DOCNUM" containerType="SINGLE" label="DOCNUM" name="DOCNUM" type="integer"/>
+<Field __index="3" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/DOCREL" containerType="SINGLE" label="DOCREL" name="DOCREL" type="integer"/>
+<Field __index="4" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/STATUS" containerType="SINGLE" label="STATUS" name="STATUS" type="integer"/>
+<Field __index="5" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/DIRECT" containerType="SINGLE" label="DIRECT" name="DIRECT" type="integer"/>
+<Field __index="6" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/OUTMOD" containerType="SINGLE" label="OUTMOD" name="OUTMOD" type="integer"/>
+<Field __index="7" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/IDOCTYP" containerType="SINGLE" label="IDOCTYP" name="IDOCTYP" type="string"/>
+<Field __index="8" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/MESTYP" containerType="SINGLE" label="MESTYP" name="MESTYP" type="string"/>
+<Field __index="9" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/SNDPOR" containerType="SINGLE" label="SNDPOR" name="SNDPOR" type="string"/>
+<Field __index="10" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/SNDPRT" containerType="SINGLE" label="SNDPRT" name="SNDPRT" type="string"/>
+<Field __index="11" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/SNDPRN" containerType="SINGLE" label="SNDPRN" name="SNDPRN" type="string"/>
+<Field __index="12" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/RCVPOR" containerType="SINGLE" label="RCVPOR" name="RCVPOR" type="string"/>
+<Field __index="13" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/RCVPRT" containerType="SINGLE" label="RCVPRT" name="RCVPRT" type="string"/>
+<Field __index="14" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/RCVPRN" containerType="SINGLE" label="RCVPRN" name="RCVPRN" type="string"/>
+<Field __index="15" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/CREDAT" containerType="SINGLE" label="CREDAT" name="CREDAT" type="integer"/>
+<Field __index="16" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/CRETIM" containerType="SINGLE" label="CRETIM" name="CRETIM" type="integer"/>
+<Field __index="17" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/SERIAL" containerType="SINGLE" label="SERIAL" name="SERIAL" type="long"/>
+<Field __index="18" __schemaType="EDI_DC40Type" __sourcePath="{}/MATMAS01/IDOC/EDI_DC40/@SEGMENT" containerType="SINGLE" label="SEGMENT" name="SEGMENT" type="integer"/>
+<Field __index="19" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/MSGFN" containerType="SINGLE" label="MSGFN" name="MSGFN" type="integer"/>
+<Field __index="20" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/MATNR" containerType="SINGLE" label="MATNR" name="MATNR" type="string"/>
+<Field __index="21" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/ERSDA" containerType="SINGLE" label="ERSDA" name="ERSDA" type="integer"/>
+<Field __index="22" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/ERNAM" containerType="SINGLE" label="ERNAM" name="ERNAM" type="string"/>
+<Field __index="23" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/LAEDA" containerType="SINGLE" label="LAEDA" name="LAEDA" type="integer"/>
+<Field __index="24" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/AENAM" containerType="SINGLE" label="AENAM" name="AENAM" type="string"/>
+<Field __index="25" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/PSTAT" containerType="SINGLE" label="PSTAT" name="PSTAT" type="string"/>
+<Field __index="26" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/LVORM" containerType="SINGLE" label="LVORM" name="LVORM" type="string"/>
+<Field __index="27" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/MTART" containerType="SINGLE" label="MTART" name="MTART" type="string"/>
+<Field __index="28" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/MBRSH" containerType="SINGLE" label="MBRSH" name="MBRSH" type="string"/>
+<Field __index="29" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/MATKL" containerType="SINGLE" label="MATKL" name="MATKL" type="integer"/>
+<Field __index="30" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/MEINS" containerType="SINGLE" label="MEINS" name="MEINS" type="string"/>
+<Field __index="31" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/BLANZ" containerType="SINGLE" label="BLANZ" name="BLANZ" type="integer"/>
+<Field __index="32" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/EKWSL" containerType="SINGLE" label="EKWSL" name="EKWSL" type="integer"/>
+<Field __index="33" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/BRGEW" containerType="SINGLE" label="BRGEW" name="BRGEW" type="number"/>
+<Field __index="34" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/NTGEW" containerType="SINGLE" label="NTGEW" name="NTGEW" type="number"/>
+<Field __index="35" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/VOLUM" containerType="SINGLE" label="VOLUM" name="VOLUM" type="number"/>
+<Field __index="36" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/BEHVO" containerType="SINGLE" label="BEHVO" name="BEHVO" type="string"/>
+<Field __index="37" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/RAUBE" containerType="SINGLE" label="RAUBE" name="RAUBE" type="integer"/>
+<Field __index="38" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/TEMPB" containerType="SINGLE" label="TEMPB" name="TEMPB" type="integer"/>
+<Field __index="39" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/SPART" containerType="SINGLE" label="SPART" name="SPART" type="integer"/>
+<Field __index="40" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/WESCH" containerType="SINGLE" label="WESCH" name="WESCH" type="number"/>
+<Field __index="41" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/LAENG" containerType="SINGLE" label="LAENG" name="LAENG" type="number"/>
+<Field __index="42" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/BREIT" containerType="SINGLE" label="BREIT" name="BREIT" type="number"/>
+<Field __index="43" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/HOEHE" containerType="SINGLE" label="HOEHE" name="HOEHE" type="number"/>
+<Field __index="44" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/ERGEW" containerType="SINGLE" label="ERGEW" name="ERGEW" type="number"/>
+<Field __index="45" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/ERVOL" containerType="SINGLE" label="ERVOL" name="ERVOL" type="number"/>
+<Field __index="46" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/GEWTO" containerType="SINGLE" label="GEWTO" name="GEWTO" type="number"/>
+<Field __index="47" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/VOLTO" containerType="SINGLE" label="VOLTO" name="VOLTO" type="number"/>
+<Field __index="48" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/FUELG" containerType="SINGLE" label="FUELG" name="FUELG" type="integer"/>
+<Field __index="49" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/STFAK" containerType="SINGLE" label="STFAK" name="STFAK" type="integer"/>
+<Field __index="50" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/MHDRZ" containerType="SINGLE" label="MHDRZ" name="MHDRZ" type="integer"/>
+<Field __index="51" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/MHDHB" containerType="SINGLE" label="MHDHB" name="MHDHB" type="integer"/>
+<Field __index="52" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/MHDLP" containerType="SINGLE" label="MHDLP" name="MHDLP" type="integer"/>
+<Field __index="53" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/VPSTA" containerType="SINGLE" label="VPSTA" name="VPSTA" type="string"/>
+<Field __index="54" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/COMPL" containerType="SINGLE" label="COMPL" name="COMPL" type="integer"/>
+<Field __index="55" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/GEWTO_NEW" containerType="SINGLE" label="GEWTO_NEW" name="GEWTO_NEW" type="number"/>
+<Field __index="56" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/VOLTO_NEW" containerType="SINGLE" label="VOLTO_NEW" name="VOLTO_NEW" type="number"/>
+<Field __index="194" __schemaType="E1MARAMType" __sourcePath="{}/MATMAS01/IDOC/E1MARAM/@SEGMENT" containerType="SINGLE" label="SEGMENT" name="SEGMENT_1" type="integer"/>
+<Field __index="195" __schemaType="IDOCType" __sourcePath="{}/MATMAS01/IDOC/@BEGIN" containerType="SINGLE" label="BEGIN" name="BEGIN" type="integer"/>
+<Field __artificialType="XPATH" __xpath="{=}/IDOC/E1MARAM/E1MAKTM[SPRAS_ISO='EN']/MAKTX" containerType="SINGLE" label="Rule1" name="Rule1" type="string"/>
+</Record>
+</Metadata>
+<Metadata __index="0" __referenceCounter="1" __sourcePath="{}/Product2" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _type="Output" id="c2e5dc9d-aea9-4625-a110-2fd0b0915b86">
+<Record fieldDelimiter="," name="Product2" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="4" __sourcePath="{}/Product2/Category_x005f_x005fc" containerType="SINGLE" label="Category__c" name="Category__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="10" __sourcePath="{}/Product2/CreatedById" containerType="SINGLE" label="CreatedById" name="CreatedById" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="11" __sourcePath="{}/Product2/CreatedDate" containerType="SINGLE" label="CreatedDate" name="CreatedDate" type="string"/>
+<Field __index="1" __sourcePath="{}/Product2/CurrencyIsoCode" containerType="SINGLE" label="CurrencyIsoCode" name="CurrencyIsoCode" type="string"/>
+<Field __implementationClass="java.lang.String" __index="0" __sourcePath="{}/Product2/Description" containerType="SINGLE" label="Description" name="Description" type="string"/>
+<Field __index="13" __sourcePath="{}/Product2/Family" containerType="SINGLE" label="Family" name="Family" type="string"/>
+<Field __implementationClass="java.lang.String" __index="14" __sourcePath="{}/Product2/Id" containerType="SINGLE" label="Id" name="Id" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="8" __sourcePath="{}/Product2/IsActive" containerType="SINGLE" label="IsActive" name="IsActive" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="12" __sourcePath="{}/Product2/IsDeleted" containerType="SINGLE" label="IsDeleted" name="IsDeleted" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="2" __sourcePath="{}/Product2/LastModifiedById" containerType="SINGLE" label="LastModifiedById" name="LastModifiedById" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="5" __sourcePath="{}/Product2/LastModifiedDate" containerType="SINGLE" label="LastModifiedDate" name="LastModifiedDate" type="string"/>
+<Field __implementationClass="java.lang.String" __index="7" __sourcePath="{}/Product2/Name" containerType="SINGLE" label="Name" name="Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="3" __sourcePath="{}/Product2/ProductCode" containerType="SINGLE" label="ProductCode" name="ProductCode" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="9" __sourcePath="{}/Product2/SystemModstamp" containerType="SINGLE" label="SystemModstamp" name="SystemModstamp" type="string"/>
+<Field __implementationClass="java.lang.String" __index="6" __sourcePath="{}/Product2/sap_x005fexternal_x005fid_x005f_x005fc" containerType="SINGLE" label="sap_external_id__c" name="sap_external_id__c" type="string"/>
+</Record>
+</Metadata>
+<Dictionary>
+<Entry id="DictionaryEntry0" input="true" name="inputPayload" output="false" type="object"/>
+<Entry id="DictionaryEntry1" input="false" name="outputPayload" output="true" type="object"/>
+</Dictionary>
+</Global>
+<Phase number="0">
+<Node enabled="enabled" guiName="Foreach 'MATMAS01' -&gt; 'Product2'" guiX="460" guiY="20" id="FOREACH_MATMAS01_PRODUCT2" transformClass="com.mulesoft.datamapper.transform.MelRecordTransform" type="REFORMAT">
+<attr name="melScript"><![CDATA[//MEL
+//START -> DO NOT REMOVE
+output.__id = input.__id;
+//END -> DO NOT REMOVE
+output.Name = input.Rule1;
+output.sap_external_id__c = input.MATNR;]]></attr>
+</Node>
+<Node cacheInMemory="true" enabled="enabled" fileURL="dict:outputPayload" guiName="Map&lt;k,v&gt; WRITER" guiX="900" guiY="20" id="MAP_WRITER0" type="MAP_WRITER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<clover:collection clover:name="Product2" xmlns:clover="http://www.cloveretl.com/ns/xmlmapping">
+  <item clover:inPort="0">
+    <Description clover:dataType="java.lang.String">$0.Description</Description>
+    <CurrencyIsoCode>$0.CurrencyIsoCode</CurrencyIsoCode>
+    <LastModifiedById clover:dataType="java.lang.String">$0.LastModifiedById</LastModifiedById>
+    <ProductCode clover:dataType="java.lang.String">$0.ProductCode</ProductCode>
+    <clover:element clover:name="Category__c">$0.Category__c</clover:element>
+    <LastModifiedDate clover:dataType="java.util.Calendar">$0.LastModifiedDate</LastModifiedDate>
+    <clover:element clover:name="sap_external_id__c" clover:dataType="java.lang.String">$0.sap_external_id__c</clover:element>
+    <Name clover:dataType="java.lang.String">$0.Name</Name>
+    <IsActive clover:dataType="java.lang.Boolean">$0.IsActive</IsActive>
+    <SystemModstamp clover:dataType="java.util.Calendar">$0.SystemModstamp</SystemModstamp>
+    <CreatedById clover:dataType="java.lang.String">$0.CreatedById</CreatedById>
+    <CreatedDate clover:dataType="java.util.Calendar">$0.CreatedDate</CreatedDate>
+    <IsDeleted clover:dataType="java.lang.Boolean">$0.IsDeleted</IsDeleted>
+    <Family>$0.Family</Family>
+    <Id clover:dataType="java.lang.String">$0.Id</Id>
+  </item>
+</clover:collection>]]></attr>
+<attr name="_data_format"><![CDATA[MAP]]></attr>
+<attr name="__metadata"><![CDATA[true]]></attr>
+</Node>
+<Node charset="UTF-8" enabled="enabled" fileURL="dict:inputPayload" guiName="XML READER" guiX="20" guiY="20" id="XML_READER0" type="XML_READER">
+<attr name="xmlSchemaURL"><![CDATA[./src/test/resources/MATMAS01.xsd]]></attr>
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context outPort="0" sequenceField="__id" xpath="/MATMAS01">
+  <Mapping cloverField="TABNAM" trim="true" xpath="IDOC/EDI_DC40/TABNAM"/>
+  <Mapping cloverField="MANDT" trim="true" xpath="IDOC/EDI_DC40/MANDT"/>
+  <Mapping cloverField="DOCNUM" trim="true" xpath="IDOC/EDI_DC40/DOCNUM"/>
+  <Mapping cloverField="DOCREL" trim="true" xpath="IDOC/EDI_DC40/DOCREL"/>
+  <Mapping cloverField="STATUS" trim="true" xpath="IDOC/EDI_DC40/STATUS"/>
+  <Mapping cloverField="DIRECT" trim="true" xpath="IDOC/EDI_DC40/DIRECT"/>
+  <Mapping cloverField="OUTMOD" trim="true" xpath="IDOC/EDI_DC40/OUTMOD"/>
+  <Mapping cloverField="IDOCTYP" trim="true" xpath="IDOC/EDI_DC40/IDOCTYP"/>
+  <Mapping cloverField="MESTYP" trim="true" xpath="IDOC/EDI_DC40/MESTYP"/>
+  <Mapping cloverField="SNDPOR" trim="true" xpath="IDOC/EDI_DC40/SNDPOR"/>
+  <Mapping cloverField="SNDPRT" trim="true" xpath="IDOC/EDI_DC40/SNDPRT"/>
+  <Mapping cloverField="SNDPRN" trim="true" xpath="IDOC/EDI_DC40/SNDPRN"/>
+  <Mapping cloverField="RCVPOR" trim="true" xpath="IDOC/EDI_DC40/RCVPOR"/>
+  <Mapping cloverField="RCVPRT" trim="true" xpath="IDOC/EDI_DC40/RCVPRT"/>
+  <Mapping cloverField="RCVPRN" trim="true" xpath="IDOC/EDI_DC40/RCVPRN"/>
+  <Mapping cloverField="CREDAT" trim="true" xpath="IDOC/EDI_DC40/CREDAT"/>
+  <Mapping cloverField="CRETIM" trim="true" xpath="IDOC/EDI_DC40/CRETIM"/>
+  <Mapping cloverField="SERIAL" trim="true" xpath="IDOC/EDI_DC40/SERIAL"/>
+  <Mapping cloverField="SEGMENT" trim="true" xpath="IDOC/EDI_DC40/@SEGMENT"/>
+  <Mapping cloverField="MSGFN" trim="true" xpath="IDOC/E1MARAM/MSGFN"/>
+  <Mapping cloverField="MATNR" trim="true" xpath="IDOC/E1MARAM/MATNR"/>
+  <Mapping cloverField="ERSDA" trim="true" xpath="IDOC/E1MARAM/ERSDA"/>
+  <Mapping cloverField="ERNAM" trim="true" xpath="IDOC/E1MARAM/ERNAM"/>
+  <Mapping cloverField="LAEDA" trim="true" xpath="IDOC/E1MARAM/LAEDA"/>
+  <Mapping cloverField="AENAM" trim="true" xpath="IDOC/E1MARAM/AENAM"/>
+  <Mapping cloverField="PSTAT" trim="true" xpath="IDOC/E1MARAM/PSTAT"/>
+  <Mapping cloverField="LVORM" trim="true" xpath="IDOC/E1MARAM/LVORM"/>
+  <Mapping cloverField="MTART" trim="true" xpath="IDOC/E1MARAM/MTART"/>
+  <Mapping cloverField="MBRSH" trim="true" xpath="IDOC/E1MARAM/MBRSH"/>
+  <Mapping cloverField="MATKL" trim="true" xpath="IDOC/E1MARAM/MATKL"/>
+  <Mapping cloverField="MEINS" trim="true" xpath="IDOC/E1MARAM/MEINS"/>
+  <Mapping cloverField="BLANZ" trim="true" xpath="IDOC/E1MARAM/BLANZ"/>
+  <Mapping cloverField="EKWSL" trim="true" xpath="IDOC/E1MARAM/EKWSL"/>
+  <Mapping cloverField="BRGEW" trim="true" xpath="IDOC/E1MARAM/BRGEW"/>
+  <Mapping cloverField="NTGEW" trim="true" xpath="IDOC/E1MARAM/NTGEW"/>
+  <Mapping cloverField="VOLUM" trim="true" xpath="IDOC/E1MARAM/VOLUM"/>
+  <Mapping cloverField="BEHVO" trim="true" xpath="IDOC/E1MARAM/BEHVO"/>
+  <Mapping cloverField="RAUBE" trim="true" xpath="IDOC/E1MARAM/RAUBE"/>
+  <Mapping cloverField="TEMPB" trim="true" xpath="IDOC/E1MARAM/TEMPB"/>
+  <Mapping cloverField="SPART" trim="true" xpath="IDOC/E1MARAM/SPART"/>
+  <Mapping cloverField="WESCH" trim="true" xpath="IDOC/E1MARAM/WESCH"/>
+  <Mapping cloverField="LAENG" trim="true" xpath="IDOC/E1MARAM/LAENG"/>
+  <Mapping cloverField="BREIT" trim="true" xpath="IDOC/E1MARAM/BREIT"/>
+  <Mapping cloverField="HOEHE" trim="true" xpath="IDOC/E1MARAM/HOEHE"/>
+  <Mapping cloverField="ERGEW" trim="true" xpath="IDOC/E1MARAM/ERGEW"/>
+  <Mapping cloverField="ERVOL" trim="true" xpath="IDOC/E1MARAM/ERVOL"/>
+  <Mapping cloverField="GEWTO" trim="true" xpath="IDOC/E1MARAM/GEWTO"/>
+  <Mapping cloverField="VOLTO" trim="true" xpath="IDOC/E1MARAM/VOLTO"/>
+  <Mapping cloverField="FUELG" trim="true" xpath="IDOC/E1MARAM/FUELG"/>
+  <Mapping cloverField="STFAK" trim="true" xpath="IDOC/E1MARAM/STFAK"/>
+  <Mapping cloverField="MHDRZ" trim="true" xpath="IDOC/E1MARAM/MHDRZ"/>
+  <Mapping cloverField="MHDHB" trim="true" xpath="IDOC/E1MARAM/MHDHB"/>
+  <Mapping cloverField="MHDLP" trim="true" xpath="IDOC/E1MARAM/MHDLP"/>
+  <Mapping cloverField="VPSTA" trim="true" xpath="IDOC/E1MARAM/VPSTA"/>
+  <Mapping cloverField="COMPL" trim="true" xpath="IDOC/E1MARAM/COMPL"/>
+  <Mapping cloverField="GEWTO_NEW" trim="true" xpath="IDOC/E1MARAM/GEWTO_NEW"/>
+  <Mapping cloverField="VOLTO_NEW" trim="true" xpath="IDOC/E1MARAM/VOLTO_NEW"/>
+  <Mapping cloverField="SEGMENT_1" trim="true" xpath="IDOC/E1MARAM/@SEGMENT"/>
+  <Mapping cloverField="BEGIN" trim="true" xpath="IDOC/@BEGIN"/>
+  <Mapping cloverField="Rule1" trim="true" xpath="IDOC/E1MARAM/E1MAKTM[SPRAS_ISO='EN']/MAKTX"/>
+</Context>
+]]></attr>
+<attr name="_data_format"><![CDATA[XML]]></attr>
+<attr name="__rootGlobalElementName"><![CDATA[MATMAS01]]></attr>
+</Node>
+<Edge debugMode="true" fromNode="FOREACH_MATMAS01_PRODUCT2:0" guiBendpoints="" id="Edge1" inPort="Port 0 (in)" metadata="c2e5dc9d-aea9-4625-a110-2fd0b0915b86" outPort="Port 0 (out)" toNode="MAP_WRITER0:0"/>
+<Edge debugMode="true" fromNode="XML_READER0:0" guiBendpoints="" id="Edge0" inPort="Port 0 (in)" metadata="94c46c3a-be93-4ed9-bc44-ab298969fc5f" outPort="Port 0 (out)" toNode="FOREACH_MATMAS01_PRODUCT2:0"/>
+</Phase>
+</Graph>

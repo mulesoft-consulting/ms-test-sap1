@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:json="http://www.mulesoft.org/schema/mule/json"
+	xmlns:batch="http://www.mulesoft.org/schema/mule/batch" xmlns:data-mapper="http://www.mulesoft.org/schema/mule/ee/data-mapper" xmlns:sfdc="http://www.mulesoft.org/schema/mule/sfdc" xmlns:sap="http://www.mulesoft.org/schema/mule/sap" xmlns:tracking="http://www.mulesoft.org/schema/mule/ee/tracking"
+      xmlns="http://www.mulesoft.org/schema/mule/core"
+      xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+      xmlns:spring="http://www.springframework.org/schema/beans"
+      version="EE-3.5.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/json/current/mule-json.xsd
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/ee/tracking http://www.mulesoft.org/schema/mule/ee/tracking/current/mule-tracking-ee.xsd
+http://www.mulesoft.org/schema/mule/sap http://www.mulesoft.org/schema/mule/sap/current/mule-sap.xsd
+http://www.mulesoft.org/schema/mule/ee/data-mapper http://www.mulesoft.org/schema/mule/ee/data-mapper/current/mule-data-mapper.xsd
+http://www.mulesoft.org/schema/mule/sfdc http://www.mulesoft.org/schema/mule/sfdc/current/mule-sfdc.xsd
+http://www.mulesoft.org/schema/mule/batch http://www.mulesoft.org/schema/mule/batch/current/mule-batch.xsd">
+    <data-mapper:config name="XML_To_List_Product2_" transformationGraphPath="xml_to_list_product2__1.grf" doc:name="XML_To_List_Product2_"/>
+    
+    <batch:job name="businessLogicBatch">
+        <batch:threading-profile poolExhaustedAction="WAIT"/>
+        <batch:input>
+            <data-mapper:transform config-ref="XML_To_List_Product2_" doc:name="SAP XML To List&lt;Product2&gt;"/>
+        </batch:input>
+        <batch:process-records>
+            <batch:step name="foreachMaterialInSapUpsertProductInSFDCStep">
+                <batch:commit size="200" doc:name="Batch Commit">
+                    <sfdc:upsert config-ref="Salesforce" externalIdFieldName="sap_external_id__c" type="Product2" doc:name="upsert Products in Salesforce">
+                        <sfdc:objects ref="#[payload]"/>
+                    </sfdc:upsert>
+                </batch:commit>
+            </batch:step>
+        </batch:process-records>
+        <batch:on-complete>
+            <json:object-to-json-transformer doc:name="transform BatchJobInstance to JSON" />
+			<logger level="INFO" doc:name="log 'Migration process has finished'" message="Migration process has finished: #[payload]" />
+        </batch:on-complete>
+    </batch:job>
+</mule>

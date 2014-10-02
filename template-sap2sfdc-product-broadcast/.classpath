@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="var" path="M2_REPO/org/mule/munit/munit-common/3.5-M2/munit-common-3.5-M2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-xjc/2.2.5.1/jaxb-xjc-2.2.5.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-web/3.0.6.RELEASE/spring-web-3.0.6.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/reflections/reflections/0.9.8/reflections-0.9.8.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mockito/mockito-all/1.8.2/mockito-all-1.8.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/sap/conn/jco/sapjco/3.0.9/sapjco-3.0.9.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="var" path="M2_REPO/org/cometd/java/cometd-java-client/2.2.0/cometd-java-client-2.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/tools/devkit/mule-devkit-annotations/3.5.0/mule-devkit-annotations-3.5.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/force/api/force-wsc/31.0.0-hf1/force-wsc-31.0.0-hf1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/cometd/java/cometd-java-common/2.2.0/cometd-java-common-2.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/modules/mule-module-sfdc/5.4.8/mule-module-sfdc-5.4.8.jar"/>
+	<classpathentry kind="lib" path="src/main/app/lib/sapjco3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/cometd/java/bayeux-api/2.2.0/bayeux-api-2.2.0.jar"/>
+	<classpathentry excluding="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="lib" path="src/main/app/lib/sapidoc3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/mina/mina-core/2.0.0-M6/mina-core-2.0.0-M6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/2.2.2/gson-2.2.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/templates/templates-tooling-common/1.0.0/templates-tooling-common-1.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit-dep/4.9/junit-dep-4.9.jar"/>
+	<classpathentry kind="src" path="mappings"/>
+	<classpathentry kind="var" path="M2_REPO/com/sap/conn/jco/sapjco-native/3.0.9/sapjco-native-3.0.9-mac64.jar"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/sshd/sshd-core/0.6.0/sshd-core-0.6.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/munit/munit-mock/3.5-M2/munit-mock-3.5-M2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/jcl-over-slf4j/1.6.1/jcl-over-slf4j-1.6.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/mulesoft/muleesb/transports/mule-transport-sap/2.2.2/mule-transport-sap-2.2.2.jar"/>
+	<classpathentry excluding="**/*.java" kind="src" output="target/test-classes" path="src/main/app"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/modules/mule-interceptor-module/3.5-M2/mule-interceptor-module-3.5-M2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/munit/munit-runner/3.5-M2/munit-runner-3.5-M2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/rhino/js/1.7R2/js-1.7R2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ftpserver/ftplet-api/1.0.2/ftplet-api-1.0.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/sap/conn/idoc/sapidoc/3.0.6/sapidoc-3.0.6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/munit/munit-assert/3.5-M2/munit-assert-3.5-M2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-client/8.1.13.v20130916/jetty-client-8.1.13.v20130916.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ftpserver/ftpserver-core/1.0.2/ftpserver-core-1.0.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/antlr/ST4/4.0.7/ST4-4.0.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-impl/2.1.5/jaxb-impl-2.1.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/mockobjects/mockobjects-core/0.09/mockobjects-core-0.09.jar"/>
+	<classpathentry kind="var" path="M2_REPO/xalan/serializer/2.7.1/serializer-2.7.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="MULE_RUNTIME"/>
+	<classpathentry kind="var" path="M2_REPO/com/jcraft/jsch/0.1.42/jsch-0.1.42.jar"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

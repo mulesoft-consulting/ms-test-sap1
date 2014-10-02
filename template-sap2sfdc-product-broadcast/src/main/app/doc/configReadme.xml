@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<configuration>
+	<placeholders>
+		<placeholder id="template_name">SAP2SFDC-product-broadcast</placeholder>
+	</placeholders>
+	<sections>
+		<section id="use_case">
+			WE NEED A NICE GUY WHO WRITE THIS FOR US!!!!
+		</section>
+		<section id="considerations">
+		<![CDATA[
+To make this Anypoint Template run, there are certain preconditions that must be considered.
+All of them deal with the preparations in both source (SAP) and destination (SFDC) systems, that must be made in order for all to run smoothly.
+**Failling to do so could lead to unexpected behavior of the template.**
+
+Before continue with the use of this Anypoint Template, you may want to check out this [Documentation Page](http://www.mulesoft.org/documentation/display/current/SAP+Connector#SAPConnector-EnablingYourStudioProjectforSAP), that will teach you how to work 
+with SAP and Anypoint Studio.
+
+## Disclaimer
+
+This Anypoint template uses a few private Maven dependencies in oder to work. If you intend to run this template with Maven support, please continue reading.
+
+You will find that there are three dependencies in the pom.xml file that begin with the following group id: 
+	**com.sap.conn.jco** 
+These dependencies are private for Mulesoft and will cause you application not to build from a Maven command line. You need to replace them with "provided" scope and copy the libraries into the build path.
+]]>
+		</section>
+		<section id="sap_src">
+<![CDATA[
+4. Partner profile
+Partner profile needs to be customized type of logical system as partner type. Outbound parameter of message type MATMAS is defined in the partner profile. As receiver port an RFC destination created earlier is used. Idoc Type MATMAS01 is defined.
+]]>
+		</section>
+		<section id="sfdc_dst">
+		<![CDATA[
+This template makes use of the `External ID` field offered by Salesforce. Here is a short description on how SFDC define external ID's 
+
++ [What is an external ID?](http://help.salesforce.com/apex/HTViewHelpDoc?id=faq_import_general_what_is_an_external.htm)
+
+The templates uses the External ID in order to do xRef between the entities in both systems. The idea is, once an entity is created in SFDC it's decorated with an ID from the source system which will be used afteward for the template to reference it.
+
+You will need to create a new custom field in your **Product** entity in SFDC with the following name: 
+
++ `sap_external_id`
+
+For instructions on how to create a custom field in SFDC plase check this link:
+
++ [Create Custom Fields](http://www.salesforce.com/smallbusinesscenter/faq/customize.jsp#customfield)
+]]>
+		</section>
+		<section id="running_on_studio">
+		<![CDATA[
+In order to make this Anypoint Template run on Mule Studio there are a few extra steps that needs to be made.
+Please check this Documentation Page:
+
++ [Enabling Your Studio Project for SAP](http://www.mulesoft.org/documentation/display/current/SAP+Connector#SAPConnector-EnablingYourStudioProjectforSAP)
+		]]>
+		</section>
+		<section id="application_configuration">
+		<![CDATA[
+**SAP Connector configuration**
+
++ sap.jco.ashost=your.sap.address.com
++ sap.jco.user=SAP_USER
++ sap.jco.passwd=SAP_PASS
++ sap.jco.sysnr=14
++ sap.jco.client=800
++ sap.jco.lang=EN
+
+**SAP Endpoint configuration**
+
++ sap.jco.connectioncount=2
++ sap.jco.gwhost=your.sap.addres.com
++ sap.jco.gwservice=sapgw14
++ sap.jco.idoc.programid=PROGRAM_ID
+
+**SalesForce Connector configuration**
+
++ sfdc.username=bob.dylan@sfdc
++ sfdc.password=DylanPassword123
++ sfdc.securityToken=avsfwCUl7apQs56Xq2AKi3X
++ sfdc.url=https://test.salesforce.com/services/Soap/u/28.0
+]]>
+		</section>
+		<section id="api_calls">
+		<![CDATA[
+SalesForce imposes limits on the number of API Calls that can be made.
+Therefore calculating this amount may be an important factor to
+consider. Product Broadcast Template calls to the API can be
+calculated using the formula:
+
+**X / 200**
+
+Being X the number of Products to be synchronized on each run.
+
+The division by 200 is because, by default, Users are gathered in groups
+of 200 for each Upsert API Call in the commit step. Also consider
+that this calls are executed repeatedly every polling cycle.
+
+For instance if 10 records are fetched from origin instance, then 1 api
+calls to SFDC will be made ( 1).
+]]>
+		</section>
+		
+	</sections>
+</configuration>

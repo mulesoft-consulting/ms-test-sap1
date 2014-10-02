@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:sfdc="http://www.mulesoft.org/schema/mule/sfdc" xmlns:sap="http://www.mulesoft.org/schema/mule/sap" xmlns:context="http://www.springframework.org/schema/context"
+      xmlns="http://www.mulesoft.org/schema/mule/core"
+      xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+      xmlns:spring="http://www.springframework.org/schema/beans"
+      version="EE-3.5.1"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-current.xsd
+http://www.mulesoft.org/schema/mule/sap http://www.mulesoft.org/schema/mule/sap/current/mule-sap.xsd
+http://www.mulesoft.org/schema/mule/sfdc http://www.mulesoft.org/schema/mule/sfdc/current/mule-sfdc.xsd">
+	
+	<!-- This is the main configuration files, you should place here all the Connectors configuration an declarations -->
+
+    <context:property-placeholder location="common.properties, mule.${mule.env}.properties"/>
+    
+    <sap:connector name="SAP" jcoAsHost="${sap.jco.ashost}" jcoUser="${sap.jco.user}" jcoPasswd="${sap.jco.passwd}" jcoSysnr="${sap.jco.sysnr}" jcoClient="${sap.jco.client}" jcoLang="${sap.jco.lang}" validateConnections="true" doc:name="SAP"/>
+    
+    <sfdc:config name="Salesforce" username="${sfdc.username}" password="${sfdc.password}" securityToken="${sfdc.securityToken}" url="${sfdc.url}" doc:name="Salesforce">
+        <sfdc:connection-pooling-profile initialisationPolicy="INITIALISE_ONE" exhaustedAction="WHEN_EXHAUSTED_GROW"/>
+    </sfdc:config>
+    
+</mule>
